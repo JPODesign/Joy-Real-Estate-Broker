@@ -4,13 +4,9 @@ This folder contains the local website assets copied from the Joy Ogaya project 
 
 The website uses relative paths only, so it works when opening `index.html` directly or through VS Code Live Server.
 
-Active website media is organized by featured property:
+Organization:
 
-- `assets/properties/acropolis-loyola/`
-- `assets/properties/alta-monte-pililla/`
-- `assets/properties/east-bel-air-cainta/`
-- `assets/properties/splendido-tagaytay/`
-- `assets/properties/lakeview/`
-- `assets/properties/verterra-highlands/`
+- `images/` contains property thumbnails, hero imagery, and video posters.
+- `videos/` contains deployable MP4 files used by the property video gallery.
 
-The homepage currently uses six still-image listing assets so the site opens quickly from `index.html` or VS Code Live Server.
+Large videos should stay below GitHub's regular 100 MB file limit for normal GitHub Pages deployment.

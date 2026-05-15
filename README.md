@@ -10,7 +10,8 @@ Static HTML/CSS/JS real estate website prepared for GitHub Pages.
 +-- styles.css
 +-- script.js
 +-- assets/
-    +-- properties/
+    +-- images/
+    +-- videos/
 ```
 
 `index.html` is in the root folder. CSS, JavaScript, and image files use relative paths so the site can run locally and on GitHub Pages.
@@ -49,5 +50,6 @@ This site is ready for GitHub Pages because:
 
 - `index.html` is in the root folder.
 - `styles.css` and `script.js` are linked with relative paths.
-- Images are stored under `assets/properties/`.
+- Images are stored under `assets/images/`.
+- Videos are stored under `assets/videos/`.
 - No local computer paths are required by the website.

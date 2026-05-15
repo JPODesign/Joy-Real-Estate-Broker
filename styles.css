@@ -372,6 +372,7 @@ textarea:focus {
 }
 
 .property-grid,
+.property-video-grid,
 .service-grid,
 .testimonial-grid {
   display: grid;
@@ -481,6 +482,37 @@ textarea:focus {
   background: var(--accent-dark);
   border-color: var(--accent-dark);
   color: #fff;
+}
+
+.property-video-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 22px;
+}
+
+.property-video-card {
+  background: var(--panel);
+  border: 1px solid rgba(217, 221, 214, 0.82);
+  border-radius: var(--radius);
+  box-shadow: 0 18px 46px rgba(19, 24, 20, 0.06);
+  overflow: hidden;
+}
+
+.property-video-card video {
+  aspect-ratio: 16 / 9;
+  background: #111;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.property-video-card div {
+  padding: 24px;
+}
+
+.property-video-card p:last-child {
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 0;
 }
 
 .service-grid article,
@@ -704,6 +736,7 @@ textarea:focus {
   }
 
   .property-grid,
+  .property-video-grid,
   .service-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -741,6 +774,7 @@ textarea:focus {
 
   .search-panel,
   .property-grid,
+  .property-video-grid,
   .service-grid,
   .testimonial-grid,
   .stats-grid {
