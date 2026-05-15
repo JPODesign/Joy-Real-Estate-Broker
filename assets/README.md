@@ -9,4 +9,4 @@ Organization:
 - `images/<property-name>/main.*` contains property thumbnails, hero imagery, and video posters.
 - `videos/<property-name>/main.mp4` contains deployable MP4 files used by the property video gallery.
 
-Large videos should stay below GitHub's regular 100 MB file limit for normal GitHub Pages deployment.
+Large videos should stay below common static-hosting file limits for smooth Vercel and GitHub Pages deployment.
