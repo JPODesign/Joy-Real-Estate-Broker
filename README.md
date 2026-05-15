@@ -17,10 +17,15 @@ Static HTML/CSS/JS real estate website prepared for Vercel and GitHub Pages.
             +-- main.png
     +-- videos/
         +-- alta-monte-pililla/
-            +-- main.mp4
+            +-- alta-1x1.mp4
+            +-- altamonte-9x16.mp4
+        +-- east-bel-air-cainta/
+            +-- ebar.mp4
 ```
 
 `index.html` is in the root folder. CSS, JavaScript, image files, and video files use relative paths so the site can run locally and on static hosts like Vercel.
+
+The property cards open a details modal with a scrollable image gallery, responsive videos, property information, and amenities.
 
 ## Local Preview
 

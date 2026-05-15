@@ -7,7 +7,7 @@
     <title>Joy Ogaya Real Estate Agent | Modern Real Estate in Rizal</title>
     <meta
       name="description"
-      content="Discover quality homes, investment properties, and trusted real estate guidance with Joy Ogaya Realty."
+      content="Discover quality homes, investment properties, and trusted real estate guidance with me."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -113,7 +113,7 @@
                 <span>3 baths</span>
                 <span>240 sqm</span>
               </div>
-              <a href="#contact">View Details</a>
+              <button class="details-button" type="button" data-property="acropolis-loyola">View Details</button>
             </div>
           </article>
 
@@ -131,7 +131,7 @@
                 <span>2 baths</span>
                 <span>145 sqm</span>
               </div>
-              <a href="#contact">View Details</a>
+              <button class="details-button" type="button" data-property="alta-monte-pililla">View Details</button>
             </div>
           </article>
 
@@ -149,7 +149,7 @@
                 <span>4 baths</span>
                 <span>310 sqm</span>
               </div>
-              <a href="#contact">View Details</a>
+              <button class="details-button" type="button" data-property="east-bel-air-cainta">View Details</button>
             </div>
           </article>
 
@@ -167,7 +167,7 @@
                 <span>2 baths</span>
                 <span>96 sqm</span>
               </div>
-              <a href="#contact">View Details</a>
+              <button class="details-button" type="button" data-property="splendido-tagaytay">View Details</button>
             </div>
           </article>
 
@@ -185,7 +185,7 @@
                 <span>3 baths</span>
                 <span>198 sqm</span>
               </div>
-              <a href="#contact">View Details</a>
+              <button class="details-button" type="button" data-property="east-bel-air-cainta-garden">View Details</button>
             </div>
           </article>
 
@@ -203,7 +203,7 @@
                 <span>1 bath</span>
                 <span>72 sqm</span>
               </div>
-              <a href="#contact">View Details</a>
+              <button class="details-button" type="button" data-property="splendido-view">View Details</button>
             </div>
           </article>
         </div>
@@ -211,7 +211,7 @@
         <div class="property-video-grid" aria-label="Featured property videos">
           <article class="property-video-card">
             <video
-              src="assets/videos/alta-monte-pililla/main.mp4"
+              src="assets/videos/alta-monte-pililla/alta-1x1.mp4"
               poster="assets/images/alta-monte-pililla/main.png"
               controls
               muted
@@ -227,7 +227,7 @@
 
           <article class="property-video-card">
             <video
-              src="assets/videos/east-bel-air-cainta/main.mp4"
+              src="assets/videos/east-bel-air-cainta/ebar.mp4"
               poster="assets/images/east-bel-air-cainta/main.jpg"
               controls
               muted
@@ -243,7 +243,7 @@
 
           <article class="property-video-card">
             <video
-              src="assets/videos/palo-alto-baras/main.mp4"
+              src="assets/videos/palo-alto-baras/palo-alto-16x9.mp4"
               poster="assets/images/splendido-tagaytay/hero.jpg"
               controls
               muted
@@ -259,7 +259,7 @@
 
           <article class="property-video-card">
             <video
-              src="assets/videos/the-hampton-place/main.mp4"
+              src="assets/videos/the-hampton-place/the-hampton-place.mp4"
               poster="assets/images/splendido-tagaytay/main.jpg"
               controls
               muted
@@ -275,7 +275,7 @@
 
           <article class="property-video-card">
             <video
-              src="assets/videos/verterra-highlands/main.mp4"
+              src="assets/videos/verterra-highlands/verterra-2024.mp4"
               poster="assets/images/splendido-tagaytay/gallery.jpg"
               controls
               muted
@@ -288,6 +288,71 @@
               <p>Preview additional project media from the source collection.</p>
             </div>
           </article>
+
+          <article class="property-video-card">
+            <video
+              src="assets/videos/alta-monte-pililla/altamonte-9x16.mp4"
+              poster="assets/images/alta-monte-pililla/main.png"
+              controls
+              muted
+              playsinline
+              preload="metadata"
+            ></video>
+            <div>
+              <p class="eyebrow">Property Video</p>
+              <h3>Alta Monte Pililla</h3>
+              <p>Watch an additional vertical preview for Alta Monte Pililla.</p>
+            </div>
+          </article>
+
+          <article class="property-video-card">
+            <video
+              src="assets/videos/east-bel-air-cainta/ebar-1x1.mp4"
+              poster="assets/images/east-bel-air-cainta/gallery.jpg"
+              controls
+              muted
+              playsinline
+              preload="metadata"
+            ></video>
+            <div>
+              <p class="eyebrow">Property Video</p>
+              <h3>East Bel-Air Cainta</h3>
+              <p>Watch an additional square-format preview for East Bel-Air.</p>
+            </div>
+          </article>
+
+          <article class="property-video-card">
+            <video
+              src="assets/videos/palo-alto-baras/palo-alto-1x1.mp4"
+              poster="assets/images/splendido-tagaytay/hero.jpg"
+              controls
+              muted
+              playsinline
+              preload="metadata"
+            ></video>
+            <div>
+              <p class="eyebrow">Property Video</p>
+              <h3>Palo Alto Baras</h3>
+              <p>Watch an additional square-format preview for Palo Alto.</p>
+            </div>
+          </article>
+
+          <article class="property-video-card">
+            <video
+              src="assets/videos/verterra-highlands/verterra-2024-1.mp4"
+              poster="assets/images/splendido-tagaytay/gallery.jpg"
+              controls
+              muted
+              playsinline
+              preload="metadata"
+            ></video>
+            <div>
+              <p class="eyebrow">Property Video</p>
+              <h3>Verterra Highlands</h3>
+              <p>Watch an additional Verterra Highlands preview.</p>
+            </div>
+          </article>
+
         </div>
       </section>
 
@@ -389,7 +454,7 @@
           <p class="eyebrow">Contact</p>
           <h2>Book a private viewing or request property guidance.</h2>
           <div class="contact-list">
-            <a href="mailto:ogayajoy@yahoo.com">ogayajoy@yahoo.com</a>
+            <a href="mailto:ogayajoy1473@gmail.com">ogayajoy1473@gmail.com</a>
             <a href="tel:+639190081069">+63 919 008 1069</a>
             <span>Rizal, Philippines</span>
           </div>
@@ -427,11 +492,34 @@
         <a href="#contact">Contact</a>
       </nav>
       <div class="footer-contact">
-        <a href="mailto:ogayajoy@yahoo.com">ogayajoy@yahoo.com</a>
+        <a href="mailto:ogayajoy1473@gmail.com">ogayajoy1473@gmail.com</a>
         <a href="tel:+639190081069">+63 919 008 1069</a>
         <span>Rizal, Philippines</span>
       </div>
     </footer>
+
+    <div class="property-modal" id="property-modal" aria-hidden="true">
+      <div class="property-modal__backdrop" data-close-modal></div>
+      <article class="property-modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="property-modal__close" type="button" aria-label="Close property details" data-close-modal>Close</button>
+        <div class="property-modal__media">
+          <img class="property-modal__main-image" src="" alt="" />
+          <div class="property-modal__thumbs" aria-label="Property image thumbnails"></div>
+          <div class="property-modal__videos" aria-label="Property videos"></div>
+        </div>
+        <div class="property-modal__content">
+          <p class="eyebrow">Property Details</p>
+          <h2 id="modal-title"></h2>
+          <p class="property-modal__location"></p>
+          <p class="property-modal__price"></p>
+          <p class="property-modal__description"></p>
+          <div>
+            <h3>Amenities and Features</h3>
+            <ul class="property-modal__features"></ul>
+          </div>
+        </div>
+      </article>
+    </div>
 
     <script src="script.js"></script>
   </body>
