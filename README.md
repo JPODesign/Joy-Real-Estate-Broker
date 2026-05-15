@@ -37,7 +37,7 @@ Option 2:
 4. Go to the GitHub repository.
 5. Open **Settings > Pages**.
 6. Set **Source** to **Deploy from a branch**.
-7. Set **Branch** to `main`.
+7. Set **Branch** to `master`.
 8. Set **Folder** to `/root`.
 9. Click **Save**.
 10. Wait 2-5 minutes.
