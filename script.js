@@ -22,7 +22,10 @@ const propertyDetails = {
     price: "PHP 8,900,000",
     description: "A polished residential address with convenient access to Quezon City, Marikina, schools, and daily essentials.",
     images: ["assets/images/acropolis-loyola/main.png"],
-    videos: [],
+    videos: [
+      "assets/videos/acropolis-loyola/acropolis-2024-web.mp4",
+      "assets/videos/acropolis-loyola/acropolis-2025-web.mp4",
+    ],
     features: ["Prime city-edge location", "Residential community setting", "Buyer assistance available", "Viewing by appointment"],
   },
   "alta-monte-pililla": {
