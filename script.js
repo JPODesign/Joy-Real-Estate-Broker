@@ -1,8 +1,6 @@
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelectorAll(".main-nav a, .header-cta");
 const searchForm = document.querySelector(".search-panel");
-const contactForm = document.querySelector(".contact-form");
-const formNote = document.querySelector(".form-note");
 const detailsButtons = document.querySelectorAll(".details-button");
 const modal = document.querySelector("#property-modal");
 const modalTitle = modal?.querySelector("#modal-title");
@@ -115,12 +113,6 @@ navLinks.forEach((link) => {
 searchForm?.addEventListener("submit", (event) => {
   event.preventDefault();
   document.querySelector("#properties")?.scrollIntoView({ behavior: "smooth" });
-});
-
-contactForm?.addEventListener("submit", (event) => {
-  event.preventDefault();
-  contactForm.reset();
-  formNote.textContent = "Thank you. Joy Ogaya Realty will get back to you soon.";
 });
 
 const closePropertyModal = () => {
