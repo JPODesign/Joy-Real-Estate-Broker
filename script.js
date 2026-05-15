@@ -49,43 +49,43 @@ const propertyDetails = {
     ],
     features: ["Cainta address", "Multiple media previews", "Accessible urban location", "Consultation and viewing support"],
   },
-  "splendido-tagaytay": {
-    title: "Splendido Leisure Home",
-    location: "Tagaytay, Cavite",
-    description: "A leisure-focused property setting with generous visual previews and a relaxed destination feel.",
+  "palo-alto-baras": {
+    title: "Palo Alto Baras",
+    location: "Baras, Rizal",
+    description: "A Rizal project option with multiple video previews for buyers looking at community living and long-term value.",
     images: [
-      "assets/images/splendido-tagaytay/main.jpg",
-      "assets/images/splendido-tagaytay/gallery.jpg",
       "assets/images/splendido-tagaytay/hero.jpg",
-    ],
-    videos: [],
-    features: ["Destination property setting", "Large gallery views", "Leisure-focused lifestyle", "Investment consultation available"],
-  },
-  "east-bel-air-cainta-garden": {
-    title: "East Bel-Air Garden Unit",
-    location: "Cainta, Rizal",
-    description: "A second East Bel-Air option with gallery media and videos for a closer look at the property environment.",
-    images: [
-      "assets/images/east-bel-air-cainta/gallery.jpg",
-      "assets/images/east-bel-air-cainta/main.jpg",
     ],
     videos: [
-      "assets/videos/east-bel-air-cainta/ebar-1x1.mp4",
-      "assets/videos/east-bel-air-cainta/ebar.mp4",
+      "assets/videos/palo-alto-baras/palo-alto-16x9.mp4",
+      "assets/videos/palo-alto-baras/palo-alto-1x1.mp4",
     ],
-    features: ["Garden-oriented visual preview", "Cainta convenience", "Multiple video formats", "Buyer support available"],
+    features: ["Baras, Rizal location", "Multiple video previews", "Residential community setting", "Viewing and consultation support"],
   },
-  "splendido-view": {
-    title: "Splendido View Residence",
-    location: "Tagaytay, Cavite",
-    description: "A Tagaytay property preview with gallery imagery suited for leisure, investment, or weekend-home buyers.",
+  "the-hampton-place": {
+    title: "The Hampton Place",
+    location: "Rizal, Philippines",
+    description: "A project preview with responsive video media for families and buyers comparing residential options.",
+    images: [
+      "assets/images/east-bel-air-cainta/gallery.jpg",
+    ],
+    videos: [
+      "assets/videos/the-hampton-place/the-hampton-place.mp4",
+    ],
+    features: ["Family-oriented project", "Video walkthrough available", "Buyer guidance", "Private viewing coordination"],
+  },
+  "verterra-highlands": {
+    title: "Verterra Highlands",
+    location: "Rizal, Philippines",
+    description: "A highland property option with media previews for buyers exploring a quieter residential setting.",
     images: [
       "assets/images/splendido-tagaytay/gallery.jpg",
-      "assets/images/splendido-tagaytay/main.jpg",
-      "assets/images/splendido-tagaytay/hero.jpg",
     ],
-    videos: [],
-    features: ["Tagaytay setting", "Gallery media included", "Investment guidance", "Private viewing coordination"],
+    videos: [
+      "assets/videos/verterra-highlands/verterra-2024.mp4",
+      "assets/videos/verterra-highlands/verterra-2024-1.mp4",
+    ],
+    features: ["Highland setting", "Multiple video previews", "Investment guidance", "Viewing by appointment"],
   },
 };
 
