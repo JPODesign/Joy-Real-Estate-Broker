@@ -1,4 +1,4 @@
-# Joy Ogaya Realty Website
+# Joy Ogaya Website
 
 Static HTML/CSS/JS real estate website prepared for Vercel and GitHub Pages.
 

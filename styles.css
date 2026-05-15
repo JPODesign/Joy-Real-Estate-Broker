@@ -439,11 +439,9 @@ textarea:focus {
   z-index: 1;
 }
 
-.price {
-  color: #fff;
-  font-size: 1.45rem;
-  font-weight: 850;
-  margin-bottom: 12px;
+.property-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
 }
 
 .location {
@@ -595,12 +593,6 @@ body.modal-open {
 .property-modal__description {
   color: var(--muted);
   line-height: 1.75;
-}
-
-.property-modal__price {
-  color: var(--accent-dark);
-  font-size: 1.35rem;
-  font-weight: 850;
 }
 
 .property-modal__features {

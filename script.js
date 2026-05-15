@@ -5,7 +5,6 @@ const detailsButtons = document.querySelectorAll(".details-button");
 const modal = document.querySelector("#property-modal");
 const modalTitle = modal?.querySelector("#modal-title");
 const modalLocation = modal?.querySelector(".property-modal__location");
-const modalPrice = modal?.querySelector(".property-modal__price");
 const modalDescription = modal?.querySelector(".property-modal__description");
 const modalMainImage = modal?.querySelector(".property-modal__main-image");
 const modalThumbs = modal?.querySelector(".property-modal__thumbs");
@@ -17,7 +16,6 @@ const propertyDetails = {
   "acropolis-loyola": {
     title: "Acropolis Loyola Residence",
     location: "QC-Marikina Area",
-    price: "PHP 8,900,000",
     description: "A polished residential address with convenient access to Quezon City, Marikina, schools, and daily essentials.",
     images: ["assets/images/acropolis-loyola/main.png"],
     videos: [
@@ -29,7 +27,6 @@ const propertyDetails = {
   "alta-monte-pililla": {
     title: "Alta Monte Pililla",
     location: "Pililla, Rizal",
-    price: "PHP 5,750,000",
     description: "A scenic Rizal property option for buyers who want fresh air, mountain surroundings, and long-term value.",
     images: ["assets/images/alta-monte-pililla/main.png"],
     videos: [
@@ -41,7 +38,6 @@ const propertyDetails = {
   "east-bel-air-cainta": {
     title: "East Bel-Air Premier Unit",
     location: "Cainta, Rizal",
-    price: "PHP 12,400,000",
     description: "A Cainta property option with multiple media previews and practical access to Rizal and Metro Manila routes.",
     images: [
       "assets/images/east-bel-air-cainta/main.jpg",
@@ -56,7 +52,6 @@ const propertyDetails = {
   "splendido-tagaytay": {
     title: "Splendido Leisure Home",
     location: "Tagaytay, Cavite",
-    price: "PHP 3,950,000",
     description: "A leisure-focused property setting with generous visual previews and a relaxed destination feel.",
     images: [
       "assets/images/splendido-tagaytay/main.jpg",
@@ -69,7 +64,6 @@ const propertyDetails = {
   "east-bel-air-cainta-garden": {
     title: "East Bel-Air Garden Unit",
     location: "Cainta, Rizal",
-    price: "PHP 7,300,000",
     description: "A second East Bel-Air option with gallery media and videos for a closer look at the property environment.",
     images: [
       "assets/images/east-bel-air-cainta/gallery.jpg",
@@ -84,7 +78,6 @@ const propertyDetails = {
   "splendido-view": {
     title: "Splendido View Residence",
     location: "Tagaytay, Cavite",
-    price: "PHP 4,600,000",
     description: "A Tagaytay property preview with gallery imagery suited for leisure, investment, or weekend-home buyers.",
     images: [
       "assets/images/splendido-tagaytay/gallery.jpg",
@@ -131,7 +124,6 @@ const openPropertyModal = (propertyId) => {
 
   modalTitle.textContent = property.title;
   modalLocation.textContent = property.location;
-  modalPrice.textContent = property.price;
   modalDescription.textContent = property.description;
   modalMainImage.src = property.images[0];
   modalMainImage.alt = property.title;
